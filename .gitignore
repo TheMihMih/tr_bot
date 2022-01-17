@@ -1,0 +1,4 @@
+settings.py
+images/*
+env/*
+__pycache__/*
