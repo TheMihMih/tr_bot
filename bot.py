@@ -2,7 +2,8 @@ import logging
 from telegram import bot
 import settings
 from handlers import (greeting, guess_number, send_cat_picture,
-                        full_moon, user_coordinates, talking)
+                        full_moon, user_coordinates, talking,
+                        check_user_photo)
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 
@@ -24,7 +25,7 @@ def main():
     dp.add_handler(CommandHandler("full", full_moon))
     dp.add_handler(MessageHandler(Filters.regex('^(Прислать котика)$'), send_cat_picture))
     dp.add_handler(MessageHandler(Filters.location, user_coordinates))
-    #dp.add_handler(MessageHandler(Filters.photo, check_user_photo))
+    dp.add_handler(MessageHandler(Filters.photo, check_user_photo))
     dp.add_handler(MessageHandler(Filters.text, talking))
     mybot.start_polling()
     mybot.idle()
