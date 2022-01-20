@@ -1,30 +1,10 @@
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
@@ -32,1524 +12,208 @@ Traceback (most recent call last):
     handler.handle_update(update, self, check, context)
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
-TypeError: full_moon() takes 1 positional argument but 2 were given
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-TypeError: full_moon() takes 1 positional argument but 2 were given
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-TypeError: full_moon() takes 1 positional argument but 2 were given
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-TypeError: full_moon() takes 1 positional argument but 2 were given
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-TypeError: full_moon() takes 1 positional argument but 2 were given
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-TypeError: full_moon() takes 1 positional argument but 2 were given
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-TypeError: full_moon() takes 1 positional argument but 2 were given
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-TypeError: full_moon() takes 1 positional argument but 2 were given
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 137, in cities
-    while bot_city[0] != start_letter:
-IndexError: string index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 133, in cities
-    print(user_city, bot_city[0], start_letter)
-IndexError: string index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 134, in cities
-    print(user_city, bot_city[0], start_letter)
-IndexError: string index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 134, in cities
-    print(bot_city[0])
-IndexError: string index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 145, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 134, in cities
-    if user_city[-1] in set('Ы', 'Ь','Ъ'):
-TypeError: set expected at most 1 argument, got 3
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 135, in cities
-    if user_city[-1] in set('Ы', 'Ь','Ъ'):
-TypeError: set expected at most 1 argument, got 3
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 135, in cities
-    if user_city[-1] in set('Ы', 'Ь','Ъ'):
-TypeError: set expected at most 1 argument, got 3
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 136, in cities
-    if start_letter in set('Ы', 'Ь','Ъ'):
-TypeError: set expected at most 1 argument, got 3
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 136, in cities
-    if start_letter in set('Ы', 'Ь','Ъ'):
-TypeError: set expected at most 1 argument, got 3
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 149, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 148, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 138, in cities
-    bot_city = choice(new_cities_list)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\random.py", line 346, in choice
-    return seq[self._randbelow(len(seq))]
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 138, in cities
-    bot_city = choice(new_cities_list)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\random.py", line 346, in choice
-    return seq[self._randbelow(len(seq))]
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 140, in cities
-    bot_city = choice(new_cities_list)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\random.py", line 346, in choice
-    return seq[self._randbelow(len(seq))]
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 156, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 156, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 150, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 140, in cities
-    bot_city = choice(new_cities_list)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\random.py", line 346, in choice
-    return seq[self._randbelow(len(seq))]
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 150, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 150, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 150, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 150, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 154, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 147, in cities
-    bot_city = choice(new_cities_list)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\random.py", line 346, in choice
-    return seq[self._randbelow(len(seq))]
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 132, in cities
-    new_cities_list.append(cities_list)
-AttributeError: 'str' object has no attribute 'append'
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 159, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 159, in cities
-    new_cities_list.remove(bot_city)
-ValueError: list.remove(x): x not in list
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 170, in calculator
-    print (math_params[1])
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 169, in calculator
-    math_params = user_input.split()
-AttributeError: 'list' object has no attribute 'split'
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 170, in calculator
-    math_params = user_input.split()
-AttributeError: 'list' object has no attribute 'split'
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 170, in calculator
-    math_params = user_input.split('')
-AttributeError: 'list' object has no attribute 'split'
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 170, in calculator
-    math_params = user_input.split('-', '+')
-AttributeError: 'list' object has no attribute 'split'
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 170, in calculator
-    math_params = user_input.split('-')
-AttributeError: 'list' object has no attribute 'split'
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094610>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930948E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094A00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
+  File "d:\PYPROJ\tr_bot\handlers.py", line 74, in check_user_photo
+    user_photo = context.bot.getFile()
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893078880>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB1C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB340>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+TypeError: get_file() missing 1 required positional argument: 'file_id'
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\PYPROJ\tr_bot\handlers.py", line 53, in send_cat_picture
+    context.bot.send_photo(
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB4F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBA00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBB50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBB50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBB50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBB50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB760>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB700>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBE50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7040>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7040>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7040>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7040>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBC10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7130>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D72E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7430>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7430>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7430>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7430>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7100>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7040>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7730>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7880>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7880>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7880>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7880>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBDF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBE50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBD30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBAF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBAF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBAF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBAF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CBEB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893078AC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893078A30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 79, in _new_conn
-    conn = socks.create_connection(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\socks.py", line 180, in create_connection
-    for r in socket.getaddrinfo(proxy_addr, proxy_port, 0, socket.SOCK_STREAM):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
-    httplib_response = self._make_request(conn, method, url,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
-    self._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
-    super(HTTPSConnectionPool, self)._validate_conn(conn)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
-    conn.connect()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
-    conn = self._new_conn()
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 119, in _new_conn
-    raise NewConnectionError(
-telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893078A30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
-    resp = self._con_pool.request(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
-    return self.request_encode_body(method, url, fields=fields,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
-    return self.urlopen(method, url, **extra_kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
-    response = conn.urlopen(method, u.request_uri, **kw)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 691, in urlopen
-    return self.urlopen(method, url, body, headers, retries,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
-    retries = retries.increment(method, url, error=e, _pool=self,
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893078A30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
-    if not action_cb():
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
-    updates = self.bot.get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
-    updates = super().get_updates(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
-    self._post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
-    raise NetworkError(f'urllib3 HTTPError {error}') from error
-telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893078A30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238930CB970>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000023893094250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000238931D7910>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /bot1962105317:AAGFT9CJFj4B9PF8mKkWilHOg3WQcU9aoQM/getUpdates
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 169, in calculator
-    pos = user_input.find('-','+')
-TypeError: slice indices must be integers or None or have an __index__ method
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 169, in calculator
-    user_input = context.args[0]
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 179, in calculator
-    update.message.reply_text(int(numbers[0]) * int(numbers[1]))
-IndexError: list index out of range
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 179, in calculator
-    update.message.reply_text(int(numbers[0]) * int(numbers[1]))
-IndexError: list index out of range
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 175, in calculator
-    if operations.items() not in set('+-*/'):
-AttributeError: 'list' object has no attribute 'items'
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 175, in calculator
-    if operations.items() not in set('+-*/'):
-AttributeError: 'list' object has no attribute 'items'
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 175, in calculator
-    if operations.items() not in set('+-*/'):
-AttributeError: 'list' object has no attribute 'items'
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 183, in calculator
-    update.message.reply_text(int(numbers[0]) * int(numbers[1]))
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 183, in calculator
-    update.message.reply_text(int(numbers[0]) * int(numbers[1]))
-IndexError: list index out of range
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 176, in calculator
-    update.message.reply_text(calculations(operations, numbers))
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\message.py", line 764, in reply_text
-    return self.bot.send_message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 699, in send_photo
     return self._message(  # type: ignore[return-value]
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
-    result = super()._message(
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 354, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\PYPROJ\tr_bot\handlers.py", line 56, in send_cat_picture
+    context.bot.send_photo(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 699, in send_photo
+    return self._message(  # type: ignore[return-value]
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 354, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\PYPROJ\tr_bot\handlers.py", line 56, in send_cat_picture
+    context.bot.send_photo(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 699, in send_photo
+    return self._message(  # type: ignore[return-value]
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 354, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\PYPROJ\tr_bot\handlers.py", line 56, in send_cat_picture
+    context.bot.send_photo(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 699, in send_photo
+    return self._message(  # type: ignore[return-value]
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 354, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\PYPROJ\tr_bot\handlers.py", line 57, in send_cat_picture
+    context.bot.send_photo(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 699, in send_photo
+    return self._message(  # type: ignore[return-value]
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 354, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\PYPROJ\tr_bot\handlers.py", line 57, in send_cat_picture
+    context.bot.send_photo(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 699, in send_photo
+    return self._message(  # type: ignore[return-value]
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 354, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\PYPROJ\tr_bot\handlers.py", line 57, in send_cat_picture
+    context.bot.send_photo(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 699, in send_photo
+    return self._message(  # type: ignore[return-value]
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 354, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\PYPROJ\tr_bot\handlers.py", line 74, in check_user_photo
+    user_photo = context.bot.getFile(update.message.photo[-1].file_unique_id)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 2307, in get_file
+    result = self._post('getFile', data, timeout=timeout, api_kwargs=api_kwargs)
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
     raise BadRequest(message)
-telegram.error.BadRequest: Message text is empty
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 176, in calculator
-    update.message.reply_text(calculations(operations, numbers))
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\message.py", line 764, in reply_text
-    return self.bot.send_message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 513, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
-    result = super()._message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
-    raise BadRequest(message)
-telegram.error.BadRequest: Message text is empty
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 176, in calculator
-    update.message.reply_text(calculations(operations, numbers))
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\message.py", line 764, in reply_text
-    return self.bot.send_message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 513, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
-    result = super()._message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
-    raise BadRequest(message)
-telegram.error.BadRequest: Message text is empty
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 176, in calculator
-    update.message.reply_text(calculations(operations, numbers))
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\message.py", line 764, in reply_text
-    return self.bot.send_message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 513, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
-    result = super()._message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
-    raise BadRequest(message)
-telegram.error.BadRequest: Message text is empty
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 176, in calculator
-    update.message.reply_text(calculations(operations, numbers))
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\message.py", line 764, in reply_text
-    return self.bot.send_message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 513, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
-    result = super()._message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
-    raise BadRequest(message)
-telegram.error.BadRequest: Message text is empty
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
+telegram.error.BadRequest: Invalid file_id
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
@@ -1557,32 +221,12 @@ Traceback (most recent call last):
     handler.handle_update(update, self, check, context)
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 176, in calculator
-    update.message.reply_text(calculations(operations, numbers))
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\message.py", line 764, in reply_text
-    return self.bot.send_message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 513, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
-    result = super()._message(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 332, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\bot.py", line 295, in _post
-    return self.request.post(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 356, in post
-    result = self._request_wrapper(
-  File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
-    raise BadRequest(message)
-telegram.error.BadRequest: Message text is empty
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
+  File "d:\PYPROJ\tr_bot\handlers.py", line 80, in check_user_photo
+    new_filename = os.path.join("images", f"cat_{len(cat_photo_list) + 1 + datetime.now().strftime('%d.%m.%Y_%H:%M:S')}.jpg")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
@@ -1590,37 +234,10 @@ Traceback (most recent call last):
     handler.handle_update(update, self, check, context)
   File "d:\PYPROJ\tr_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
-  File "d:\PYPROJ\tr_bot\bot.py", line 171, in calculator
-    numbers = re.findall('\d+', user_input)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\re.py", line 241, in findall
-    return _compile(pattern, flags).findall(string)
-TypeError: expected string or bytes-like object
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
+  File "d:\PYPROJ\tr_bot\handlers.py", line 81, in check_user_photo
+    os.rename(file_name, new_filename)
+OSError: [WinError 123] Синтаксическая ошибка в имени файла, имени папки или метке тома: 'downloads\\AgACAgIAAxkBAAICNGHpxRppb9rZf1kepBWmnHvhbZVcAAIyuzEb8aNRS-n9AgfnE5o_AQADAgADbQADIwQ.jpg' -> 'images\\cat_1020.01.2022_23:25:S.jpg'
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-WARNING:telegram.ext.updater:Exiting immediately!
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-WARNING:telegram.ext.updater:Exiting immediately!

@@ -1,4 +1,6 @@
 settings.py
-images/*
-env/*
-__pycache__/*
+images/
+env/
+__pycache__/
+.vscode/
+downloads/
