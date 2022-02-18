@@ -241,3 +241,7 @@ INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly schedul
 INFO:root:Бот стартовал
 INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
 INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Added job "send_upds" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
