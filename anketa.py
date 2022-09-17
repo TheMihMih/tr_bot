@@ -1,10 +1,10 @@
 from telegram import ParseMode, ReplyKeyboardRemove, ReplyKeyboardMarkup
 from telegram.ext import ConversationHandler
-from db import db, get_or_create_user, save_anketa
-from util import main_keyboard
+from db import db_session
+from util import main_keyboard, get_or_create_user, save_anketa
 
 
-def anketa_start(update, context):
+def anketa_start(update, context) -> str:
     update.message.reply_text(
         "Привет, как Вас зовут",
         reply_markup=ReplyKeyboardRemove()
@@ -12,7 +12,7 @@ def anketa_start(update, context):
     return "name"
 
 
-def anketa_name(update, context):
+def anketa_name(update, context) -> str:
     user_name = update.message.text
     if len(user_name.split()) < 2:
         update.message.reply_text(
@@ -32,7 +32,7 @@ def anketa_name(update, context):
 
 
 def anketa_rating(update, context):
-    context.user_data['anketa']['rating'] = int(update.message.text)
+    context.user_data['anketa']['rate'] = int(update.message.text)
     update.message.reply_text(
         "Напишите комментарий, или нажмите /skip"
     )
@@ -41,9 +41,10 @@ def anketa_rating(update, context):
 
 def anketa_skip(update, context):
     user = get_or_create_user(
-        db, update.effective_user, update.message.chat.id
+        db_session, update.effective_user, update.message.chat.id
     )
-    save_anketa(db, user['user_id'], context.user_data['anketa'])
+
+    save_anketa(db_session, user.user_id, context.user_data['anketa'])
     user_text = format_anketa(context.user_data['anketa'])
     update.message.reply_text(
         user_text, reply_markup=main_keyboard(), parse_mode=ParseMode.HTML
@@ -54,9 +55,9 @@ def anketa_skip(update, context):
 def anketa_comment(update, context):
     context.user_data['anketa']['comment'] = update.message.text
     user = get_or_create_user(
-        db, update.effective_user, update.message.chat.id
+        db_session, update.effective_user, update.message.chat.id
     )
-    save_anketa(db, user['user_id'], context.user_data['anketa'])
+    save_anketa(db_session, user.user_id, context.user_data['anketa'])
     user_text = format_anketa(context.user_data['anketa'])
     update.message.reply_text(
         user_text, reply_markup=main_keyboard(), parse_mode=ParseMode.HTML
@@ -64,9 +65,9 @@ def anketa_comment(update, context):
     return ConversationHandler.END
 
 
-def format_anketa(anketa):
+def format_anketa(anketa) -> str:
     user_text = f'''<b>Имя Фамилия</b>: {anketa["name"]}
-<b>Оценка</b>: {anketa['rating']}
+<b>Оценка</b>: {anketa['rate']}
 '''
     if 'comment' in anketa:
         user_text += f'\n<b>Комментарий</b>: {anketa["comment"]}'
@@ -74,5 +75,5 @@ def format_anketa(anketa):
     return user_text
 
 
-def anketa_dunno(update, context):
+def anketa_dunno(update, context) -> None:
     update.message.reply_text("ТЫ ЧЕ ОТПРАВИЛ, СУКАПАДЛА? ВВОДИ НОРМАЛЬНО")

@@ -1,6 +1,9 @@
 settings.py
+bot.log
+alembic.ini
 images/
 env/
 __pycache__/
 .vscode/
 downloads/
+migrations/
