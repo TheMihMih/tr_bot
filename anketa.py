@@ -31,7 +31,7 @@ def anketa_name(update, context) -> str:
         return "rate"
 
 
-def anketa_rating(update, context):
+def anketa_rating(update, context) -> str:
     context.user_data['anketa']['rate'] = int(update.message.text)
     update.message.reply_text(
         "Напишите комментарий, или нажмите /skip"
@@ -39,7 +39,7 @@ def anketa_rating(update, context):
     return 'comment'
 
 
-def anketa_skip(update, context):
+def anketa_skip(update, context) -> int:
     user = get_or_create_user(
         db_session, update.effective_user, update.message.chat.id
     )
@@ -52,7 +52,7 @@ def anketa_skip(update, context):
     return ConversationHandler.END
 
 
-def anketa_comment(update, context):
+def anketa_comment(update, context) -> int:
     context.user_data['anketa']['comment'] = update.message.text
     user = get_or_create_user(
         db_session, update.effective_user, update.message.chat.id
@@ -65,7 +65,7 @@ def anketa_comment(update, context):
     return ConversationHandler.END
 
 
-def format_anketa(anketa) -> str:
+def format_anketa(anketa: dict[str, str]) -> str:
     user_text = f'''<b>Имя Фамилия</b>: {anketa["name"]}
 <b>Оценка</b>: {anketa['rate']}
 '''

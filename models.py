@@ -39,7 +39,7 @@ class Anketa(Base):
     comment = Column(String)
     user_id = Column(Integer, ForeignKey(User.user_id), index=True, nullable=False)
 
-    def update(self, **kwargs):
+    def update(self, **kwargs) -> None:
         for key, value in kwargs.items():
             if hasattr(self, key):
                 setattr(self, key, value)

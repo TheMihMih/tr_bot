@@ -19,23 +19,23 @@ from util import (
     make_emodji,)
 
 
-def greet_user(update, context):
+def greet_user(update, context) -> None:
     user = get_or_create_user(db_session, update.effective_user, update.message.chat.id)
     print("Вызван /start")
     update.message.reply_text(
-        f"Здравствуй, пользователь!{make_emodji(user.emoji)}",
+        f"Здравствуй, пользователь!{make_emodji(user)}",
         reply_markup=main_keyboard(),
     )
 
 
-def talk_to_me(update, context):
+def talk_to_me(update, context) -> None:
     user = get_or_create_user(db_session, update.effective_user, update.message.chat.id)
     text = update.message.text
     print(text)
-    update.message.reply_text(f"{text}{make_emodji(user.emoji)}", reply_markup=main_keyboard())
+    update.message.reply_text(f"{text}{make_emodji(user)}", reply_markup=main_keyboard())
 
 
-def guess_number(update, context):
+def guess_number(update, context) -> None:
     user = get_or_create_user(db_session, update.effective_user, update.message.chat.id)
     if context.args:
         try:
@@ -45,11 +45,11 @@ def guess_number(update, context):
         except (TypeError, ValueError):
             message = "Введите целое число"
     else:
-        message = f"Введите число {make_emodji(user.emoji)}"
+        message = f"Введите число {make_emodji(user)}"
     update.message.reply_text(message, reply_markup=main_keyboard())
 
 
-def send_cat_picture(update, context):
+def send_cat_picture(update, context) -> None:
     user = get_or_create_user(db_session, update.effective_user, update.message.chat.id)
     cat_photo_list = glob("images/cat*.jp*g")
     cat_photo_filename = choice(cat_photo_list)
@@ -69,16 +69,14 @@ def send_cat_picture(update, context):
     )
 
 
-def user_coordinates(update, context):
-    user = get_or_create_user(db_session, update.effective_user, update.message.chat.id)
+def user_coordinates(update, context) -> None:
     coords = update.message.location
     update.message.reply_text(
         f"Ваши координаты {coords}!", reply_markup=main_keyboard()
     )
 
 
-def check_user_photo(update, context):
-    user = get_or_create_user(db_session, update.effective_user, update.message.chat.id)
+def check_user_photo(update, context) -> None:
     update.message.reply_text("Обрабатываем фотографию")
     os.makedirs("downloads", exist_ok=True)
     user_photo = context.bot.getFile(update.message.photo[-1].file_id)
@@ -97,13 +95,13 @@ def check_user_photo(update, context):
         os.remove(file_name)
 
 
-def subscribe(update, context):
+def subscribe(update, context) -> None:
     user = get_or_create_user(db_session, update.effective_user, update.message.chat.id)
     subscribe_user(db_session, user)
-    update.message.reply_text(f"Вы успешно подписались{make_emodji(user.emoji)}")
+    update.message.reply_text(f"Вы успешно подписались{make_emodji(user)}")
 
 
-def unsubscribe(update, context):
+def unsubscribe(update, context) -> None:
     user = get_or_create_user(db_session, update.effective_user, update.message.chat.id)
     unsubscribe_user(db_session, user)
     update.message.reply_text("Вы успешно отписались")
@@ -118,7 +116,7 @@ def set_alarm(update, context):
         update.message.reply_text("Введите целое число секунд после команды")
 
 
-def cat_picture_rating(update, context):
+def cat_picture_rating(update, context) -> None:
     update.callback_query.answer()
     callback_type, image_name, vote = update.callback_query.data.split("|")
     vote = int(vote)
